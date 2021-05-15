@@ -37,10 +37,18 @@ public class Runner {
 		Emp3.show();
 		Emp3.run();	*/
 		
-		MethodOverloading obj3 = new MethodOverloading();
+	/*	MethodOverloading obj3 = new MethodOverloading();
 		
-		obj3.add(1, 3);
-		obj3.add(1.3, 1.5);
+	obj3.add(1, 3);
+		obj3.add(1.3, 1.5);*/
+		
+		/*MethodOverride_Child obj4 = new MethodOverride_Child();
+		obj4.disp();
+		obj4.disp1(); */
+		
+		AbstractChild obj5 = new AbstractChild();
+		obj5.method2();
+		obj5.dis();
 		
 		
 	}
