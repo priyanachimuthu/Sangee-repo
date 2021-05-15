@@ -5,7 +5,7 @@ public class Runner {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		ClassA2 Emp1 = new ClassA2();
+		/*ClassA2 Emp1 = new ClassA2();
 		
 		ClassA2 Emp = new ClassA2(7000,"Datchi","MS");
 		/*Emp.Salary = 7000;
@@ -14,7 +14,7 @@ public class Runner {
 		
 		
 		//Child
-		ClassB2 Emp2= new ClassB2();
+		/*ClassB2 Emp2= new ClassB2();
 		
 		Emp2.Salary = 6000;
 		Emp2.Name = "Sangee";
@@ -22,11 +22,11 @@ public class Runner {
 		
 		Emp.Disp();
 		Emp2.show();
-		Emp2.Disp(); 
+		Emp2.Disp();*/ 
 		
 		//Grandchild
 		
-		ClassC2 Emp3 = new ClassC2();
+		/*ClassC2 Emp3 = new ClassC2();
 		
 		Emp3.Salary = 5000;
 		Emp3.Name = "lavan";
@@ -35,9 +35,13 @@ public class Runner {
 			
 		Emp3.Disp();
 		Emp3.show();
-		Emp3.run();
+		Emp3.run();	*/
+		
+		MethodOverloading obj3 = new MethodOverloading();
+		
+		obj3.add(1, 3);
+		obj3.add(1.3, 1.5);
 		
 		
-
 	}
 }
