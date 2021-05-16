@@ -46,9 +46,23 @@ public class Runner {
 		obj4.disp();
 		obj4.disp1(); */
 		
-		AbstractChild obj5 = new AbstractChild();
+		/*AbstractChild obj5 = new AbstractChild();
 		obj5.method2();
-		obj5.dis();
+		obj5.dis();*/
+		
+		/*InterfaceChild obj6 = new InterfaceChild();
+		obj6.method2();*/
+		
+		EncapsulationClass obj7 = new EncapsulationClass();
+		obj7.setSalary(10000);
+		System.out.println(obj7.getSalary());
+		
+		obj7.setEmp_id("S79");
+		System.out.println(obj7.getEmp_id());
+		
+		obj7.setEmp_Name("Sunny");
+		System.out.println(obj7.getEmp_Name());
+		
 		
 		
 	}
